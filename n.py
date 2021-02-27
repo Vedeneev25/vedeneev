@@ -1,22 +1,22 @@
 str_input = input("первое: ")
-delimoe = int(str_input)
+A = int(str_input)
 #print(type(delimoe))
 operation = input("+ / * - ^")
 
 str_input2 = input("Второе: ")
-delitel = int(str_input2)
+B = int(str_input2)
 #print(type(delitel))
 
 if operation == '/':
-    result = delimoe / delitel
+    result = A / B
 elif operation == '+':
-    result = delimoe + delitel
+    result = A + B
 elif operation == '-':
-    result = delimoe - delitel
+    result = A - B
 elif operation == '*':
-    result = delimoe * delitel
+    result = A * B
 elif operation == '^':
-    result = delimoe ** delitel
+    result = A ** B
 else:
     result = "unknown"
 #print(type(result))
